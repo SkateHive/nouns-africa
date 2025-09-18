@@ -2,29 +2,31 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: {
-    default: 'Gnars DAO - Community-Owned Action Sports Brand',
-    template: '%s | Gnars DAO'
+    default: 'Nouns DAO Africa - Building Public Goods Across Africa',
+    template: '%s | Nouns DAO Africa'
   },
   description:
-    'Gnars DAO is a Nounish, CC0 action-sports collective funding skateboarders, surfers and creators via on-chain NFT auctions – now on Base.',
+    'Nouns DAO Africa builds a bridge from Nouns into Africa, providing a place where builders from different backgrounds and cultures work together to create and promote public goods in Africa. Funded by daily NFT auctions on Base.',
   keywords: [
-    'Gnars DAO',
-    'Gnars',
+    'Nouns DAO Africa',
+    'NDAfrica',
     'Nounish',
-    'skate DAO',
-    'action sports NFTs',
-    'on-chain generative art',
-    'extreme sports sponsorship',
-    'Base network NFTs'
+    'Africa DAO',
+    'public goods',
+    'Base network',
+    'NFT auctions',
+    'governance',
+    'African builders',
+    'decentralized organization'
   ],
-  metadataBase: new URL('https://www.gnars.com'),
+  metadataBase: new URL('https://www.nounsdaoafrica.wtf'),
   alternates: {
-    canonical: 'https://www.gnars.com/'
+    canonical: 'https://www.nounsdaoafrica.wtf/'
   },
-  authors: [{ name: 'Gnars DAO Core Team', url: 'https://www.gnars.com' }],
-  creator: 'Gnars DAO',
-  publisher: 'Gnars DAO',
-  category: 'sports',
+  authors: [{ name: 'Nouns DAO Africa Core Team', url: 'https://www.nounsdaoafrica.wtf' }],
+  creator: 'Nouns DAO Africa',
+  publisher: 'Nouns DAO Africa',
+  category: 'social',
   robots: {
     index: true,
     follow: true,
@@ -32,29 +34,29 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: 'website',
-    url: 'https://www.gnars.com',
-    title: 'Gnars DAO – Community-Owned Action Sports Brand',
+    url: 'https://www.nounsdaoafrica.wtf',
+    title: 'Nouns DAO Africa – Building Public Goods Across Africa',
     description:
-      'Funding the next generation of skate, surf and extreme-sports athletes through perpetual on-chain NFT auctions.',
-    siteName: 'Gnars DAO',
+      'A bridge from Nouns into Africa, where builders from different backgrounds and cultures work together to create and promote public goods. Funded by daily NFT auctions on Base.',
+    siteName: 'Nouns DAO Africa',
     locale: 'en_US',
     images: [
       {
-        url: '/images/gnars-og.png',
+        url: '/images/nounsdao-africa-og.png',
         width: 1200,
         height: 630,
-        alt: 'Gnars DAO – Skate and Surf On-Chain'
+        alt: 'Nouns DAO Africa – Public Goods for Africa'
       }
     ]
   },
   twitter: {
     card: 'summary_large_image',
-    site: '@gnars_dao',
-    creator: '@gnars_dao',
-    title: 'Gnars DAO – Action Sports On-Chain',
+    site: '@nounsDAOAfrica',
+    creator: '@nounsDAOAfrica',
+    title: 'Nouns DAO Africa – Public Goods for Africa',
     description:
-      'Gnars DAO bankrolls athletes & artists with a community-governed, on-chain treasury. One Gnar, one vote.',
-    images: ['/images/gnars-og.png']
+      'Building a bridge from Nouns into Africa. Builders from different cultures working together to create public goods. Daily NFT auctions on Base.',
+    images: ['/images/nounsdao-africa-og.png']
   },
   icons: {
     icon: '/favicon.ico',
