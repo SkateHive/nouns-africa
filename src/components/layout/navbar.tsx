@@ -170,7 +170,7 @@ function NavbarLinks() {
       >
         <NextLink
           target='_blank'
-          href='https://gnars.center'
+          href='https://linktr.ee/nounsdaoafrica'
           style={{ width: '100%' }}
         >
           <IoDocumentText />
